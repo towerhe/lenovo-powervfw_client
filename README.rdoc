@@ -1,17 +1,19 @@
 = lenovo-powervfw_client
 
-Description goes here.
+Provide a executable client and a series of APIs of Power V firewall of Lenovo. You can use the client to interact with the
+Power V firewall of Lenove. And you can also program with the APIs provided by this project.
 
-== Note on Patches/Pull Requests
- 
-* Fork the project.
-* Make your feature addition or bug fix.
-* Add tests for it. This is important so I don't break it in a
-  future version unintentionally.
-* Commit, do not mess with rakefile, version, or history.
-  (if you want to have your own version, that is fine but bump version in a commit by itself I can ignore when I pull)
-* Send me a pull request. Bonus points for topic branches.
+== FEATURES/PROBLEMS:
 
-== Copyright
+* [feature] Connect to the Power V firewall throw SSH.
+* [feature] Add packet filter rules whose type is deny.
+
+== SYNOPSIS:
+
+== INSTALL:
+
+  sudo gem install lenovo-powervfw_client
+
+== COPYRIGHT:
 
 Copyright (c) 2009 Tower He. See LICENSE for details.

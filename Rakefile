@@ -5,8 +5,8 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "lenovo-powervfw_client"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{A client for the Power V firewall of Lenovo}
+    gem.description = %Q{Provide a executable client and a client API of the Power V firewall of Lenovo}
     gem.email = "towerhe@gmail.com"
     gem.homepage = "http://github.com/towerhe/lenovo-powervfw_client"
     gem.authors = ["Tower He"]

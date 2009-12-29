@@ -10,6 +10,12 @@ Power V firewall of Lenove. And you can also program with the APIs provided by t
 
 == SYNOPSIS:
 
+  require 'lenovo-powervfw_client'
+
+  client = Lenovo::PowerVFwClient.new('host', 'user', 'password')
+  client.add_rule('sample', {:sa => 'any', :sport => 'any', :log => 'on'})
+  client.close
+
 == INSTALL:
 
   sudo gem install lenovo-powervfw_client

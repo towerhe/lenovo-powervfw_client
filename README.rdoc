@@ -1,11 +1,11 @@
 = lenovo-powervfw_client
 
 Provide a executable client and a series of APIs of Power V firewall of Lenovo. You can use the client to interact with the
-Power V firewall of Lenove. And you can also program with the APIs provided by this project.
+Power V firewall of Lenovo, and you can also program with the APIs provided by this project.
 
 == FEATURES/PROBLEMS:
 
-* [feature] Connect to the Power V firewall throw SSH.
+* [feature] Connect to the Power V firewall using SSH.
 * [feature] Add packet filter rules whose type is deny.
 
 == SYNOPSIS:

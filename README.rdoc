@@ -1,12 +1,11 @@
 = lenovo-powervfw_client
 
-Provide a executable client and a series of APIs of Power V firewall of Lenovo. You can use the client to interact with the
-Power V firewall of Lenovo, and you can also program with the APIs provided by this project.
+Provide a executable client and a series of APIs of Power V firewall of Lenovo. You can use the client to interact with the firewall, and you can also program with the APIs.
 
 == FEATURES/PROBLEMS:
 
-* [feature] Connect to the Power V firewall using SSH.
-* [feature] Add packet filter rules whose type is deny.
+* [feature] Connect to the Power V firewall through ssh.
+* [feature] Add packet filter rules which type is deny.
 
 == SYNOPSIS:
 
@@ -15,6 +14,12 @@ Power V firewall of Lenovo, and you can also program with the APIs provided by t
   client = Lenovo::PowerVFwClient.new('host', 'user', 'password')
   client.add_rule('sample', {:sa => 'any', :sport => 'any', :log => 'on'})
   client.close
+  
+== REQUIREMENTS:
+
+* net-ssh (2.0.17) http://net-ssh.rubyforge.org
+
+  sudo gem install net-ssh
 
 == INSTALL:
 
